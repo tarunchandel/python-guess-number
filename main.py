@@ -14,7 +14,7 @@ def welcome_screen():
 def generate_number(num):
   print(f"I'm thinking of a number between 1 and {num}.")
   result = randint(1,num)
-  print(result)
+  #print(result)
   return result
 
 #Take level as input from the user. Easy or Hard.
